@@ -1,0 +1,68 @@
+
+
+html[data-ytfocus-hidehomefeed="true"] ytd-rich-grid-renderer,
+html[data-ytfocus-hidehomefeed="true"] ytd-two-column-browse-results-renderer,
+html[data-ytfocus-hidehomefeed="true"] #contents.ytd-rich-grid-renderer {
+  display: none !important;
+}
+
+html[data-ytfocus-hidesidebar="true"] #secondary,
+html[data-ytfocus-hidesidebar="true"] #related,
+html[data-ytfocus-hidesidebar="true"] ytd-compact-video-renderer,
+html[data-ytfocus-hidesidebar="true"] ytd-watch-next-secondary-results-renderer {
+  display: none !important;
+}
+html[data-ytfocus-hidesidebar="true"] #primary {
+  max-width: 100% !important;
+  margin: 0 auto !important;
+}
+
+html[data-ytfocus-hidecomments="true"] #comments,
+html[data-ytfocus-hidecomments="true"] ytd-comments,
+html[data-ytfocus-hidecomments="true"] ytd-comment-thread-renderer {
+  display: none !important;
+}
+
+html[data-ytfocus-hideshorts="true"] ytd-reel-shelf-renderer,
+html[data-ytfocus-hideshorts="true"] ytd-rich-shelf-renderer[is-shorts],
+html[data-ytfocus-hideshorts="true"] [title="Shorts"],
+html[data-ytfocus-hideshorts="true"] ytd-guide-entry-renderer a[title="Shorts"],
+html[data-ytfocus-hideshorts="true"] ytd-mini-guide-entry-renderer a[title="Shorts"],
+html[data-ytfocus-hideshorts="true"] ytd-rich-section-renderer:has(ytd-rich-shelf-renderer[is-shorts]) {
+  display: none !important;
+}
+
+html[data-ytfocus-hideendscreen="true"] .ytp-endscreen-content,
+html[data-ytfocus-hideendscreen="true"] .ytp-ce-element,
+html[data-ytfocus-hideendscreen="true"] .ytp-ce-covering-overlay,
+html[data-ytfocus-hideendscreen="true"] .ytp-ce-element-shadow,
+html[data-ytfocus-hideendscreen="true"] .html5-endscreen {
+  display: none !important;
+}
+
+html[data-ytfocus-hideminiplayer="true"] ytd-miniplayer,
+html[data-ytfocus-hideminiplayer="true"] .ytd-miniplayer {
+  display: none !important;
+}
+
+html[data-ytfocus-hidelivechat="true"] ytd-live-chat-frame,
+html[data-ytfocus-hidelivechat="true"] #chat,
+html[data-ytfocus-hidelivechat="true"] #chat-container {
+  display: none !important;
+}
+
+html[data-ytfocus-hidenotifications="true"] ytd-notification-topbar-button-renderer,
+html[data-ytfocus-hidenotifications="true"] .ytd-notification-topbar-button-renderer {
+  display: none !important;
+}
+
+html[data-ytfocus-hidetrending="true"] ytd-guide-entry-renderer a[href="/feed/trending"],
+html[data-ytfocus-hidetrending="true"] ytd-guide-entry-renderer a[href="/feed/explore"],
+html[data-ytfocus-hidetrending="true"] ytd-mini-guide-entry-renderer a[href="/feed/trending"],
+html[data-ytfocus-hidetrending="true"] ytd-mini-guide-entry-renderer a[href="/feed/explore"] {
+  display: none !important;
+}
+
+html[data-ytfocus-hideautoplay="true"] .ytp-autonav-toggle-button-container {
+  display: none !important;
+}
